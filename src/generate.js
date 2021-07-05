@@ -57,3 +57,5 @@ const processCommand = json =>
 const json = process.argv.length > 2 && process.argv[2] === 'json';
 
 processCommand(json);
+
+
